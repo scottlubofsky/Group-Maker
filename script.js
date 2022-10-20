@@ -4,7 +4,6 @@ function renderGroups() {
     let numOfGroups = document.getElementById('number-of-groups');
 
     for (var i = 1; i <= Number(numOfGroups.value); i++) {
-        // element.innerHTML += `<div class='individual-group'><p>Group ${i}</p></div<br>`;
         element.innerHTML += `<div class='individual-group'>Group ${i}</div><br>`;
     }
 
@@ -110,8 +109,8 @@ function addNamesToGroup() {
         for (var j = 0; j < groups[i].length; j++) {
             groupArr[i].innerHTML += `<p class="group-member">${groups[i][j]}</p>`;
         }
-        // groupArr[i].innerHTML += `<p class="group-member">${groups[i]}</p>`;
     }
+    
 }
 
 function testing() {
@@ -124,4 +123,5 @@ function testing() {
         clearGroupField();
         addNamesToGroup();
     }
+    
 }
