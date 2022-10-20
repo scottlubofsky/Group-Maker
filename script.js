@@ -9,19 +9,6 @@ function renderGroups() {
 
 }
 
-function checkIfGroupsAreClear() {
-
-    let element = document.getElementById('groups');
-
-    if (element.innerHTML === "") {
-        renderGroups();
-    } else {
-        element.innerHTML = "";
-        renderGroups();
-    }
-
-}
-
 function addBox() {
 
     let elements = document.getElementsByClassName('name-box');
