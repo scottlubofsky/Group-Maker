@@ -113,7 +113,7 @@ function addNamesToGroup() {
     
 }
 
-function generateNewGroups() {
+function generateRandomGroups() {
 
     let groupMemebers = document.getElementsByClassName("group-member");
 
