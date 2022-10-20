@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: rgb(132, 202, 167);
+}
+
+#wrapper {
+    background-color: lightblue;
+    margin: auto;
+    height: auto;
+    width: 90%;
+    height: 500px;
+    overflow: hidden;
+    border: solid;
+    border-radius: 25px;
+}
+
+.groups {
+    text-align: center;
+    background-color: lightyellow;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.holder {
+    background-color: lightgreen;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.individual-group {
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    width: 250px;
+    border: solid;
+    border-radius: 25px;
+    background-color: aquamarine;
+}
+
+#groups {
+    display: flex;
+    flex-wrap: wrap;
+}
