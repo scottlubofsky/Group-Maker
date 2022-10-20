@@ -110,10 +110,10 @@ function addNamesToGroup() {
             groupArr[i].innerHTML += `<p class="group-member">${groups[i][j]}</p>`;
         }
     }
-    
+
 }
 
-function generateRandomGroups() {
+function testing() {
 
     let groupMemebers = document.getElementsByClassName("group-member");
 
@@ -123,5 +123,5 @@ function generateRandomGroups() {
         clearGroupField();
         addNamesToGroup();
     }
-    
+
 }
